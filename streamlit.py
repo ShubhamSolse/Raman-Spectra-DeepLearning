@@ -314,12 +314,6 @@ def run(model_name):
             df.loc[i] = gclassifier(tid, vid, i)
         else:
             df.loc[i] = classifier(tid, vid, i)
-
-    # st.write(print(df))
-    # print('mean')
-    # print(df.mean())
-    # print('std')
-    # print(df.std())
     st.write(df)
     st.write('Mean')
     st.write(df.mean())
