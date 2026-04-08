@@ -2,6 +2,19 @@
 
 Deep learning models for Raman spectra classification using PyTorch.
 
+## What is Raman Spectra?
+
+Raman spectroscopy is a non-destructive analytical technique that measures the interaction of light with molecular vibrations. When light interacts with a sample, most photons scatter elastically (Rayleigh scattering), but a small fraction scatter inelastically (Raman scattering), shifting in wavelength. This shift provides a unique molecular fingerprint that can identify chemical composition and structure.
+
+**Applications:**
+- Material characterization
+- Pharmaceutical analysis
+- Biomedical diagnostics
+- Quality control
+- Chemical identification
+
+This project uses deep learning to classify Raman spectra patterns for automated analysis.
+
 ## Models
 
 - **CNN**: Convolutional Neural Network with 1D convolutions
